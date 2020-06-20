@@ -1,0 +1,95 @@
+body{
+	display: block;
+    margin: 20px;
+	margin-top:0px;
+	background-color:#fff
+}
+li a:link{
+	text-decoration:none;
+	color:#fff;
+}
+li a:hover, li a:active{ 
+    color:#0ff;
+	text-decoration:none;
+}
+.header{
+	background:url("../image/11.jpg") no-repeat;
+	height:250px;
+	width:100%;
+}
+nav{
+	background-color: #fc9;
+    width: 100%;
+	height: 40px;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+    display: block;
+}
+nav ul{
+    display:block;
+	list-style: none;
+	width: 1000px;
+    margin: 0 auto;
+	text-align:center;
+}
+nav ul li{
+	display: inline;
+    vertical-align: center;
+    position: relative;
+	padding: 0 90px;
+    height: 40px; 
+    line-height: 40px;
+}
+h1{
+	color:#cc9;
+	border-bottom:thin dotted #888888;
+	font-size:160%;
+}
+img{
+	width:180px;
+	height:180px;
+	border-radius:180px;
+}
+table{
+	margin-left:20px;
+	margin-right:20px;
+	border:thin solid black;
+}
+td{
+	border:thin dotted gray;
+	padding:5px;
+}
+.left:{
+	width:20%;
+	text-align:center;
+}
+.right{
+	width:80%;
+}
+.con{
+	border:1px solid #ccc;
+	width:100%;
+	height:120px;
+	font-size:small;
+	color:#cc9;
+	/*text-align:center;*/
+}
+.submit-button{
+    text-align: center;
+    width: 100%;
+    height: 31px;
+}
+.button{
+    font-weight: bold;
+    color:#cc9;
+    width: 54.8px;
+    height: 30.95px;
+	border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border: 1px solid #cc9;
+}
+textarea{
+	width:90%;
+}
